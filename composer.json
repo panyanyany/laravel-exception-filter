@@ -19,7 +19,14 @@
     },
     "autoload": {
         "psr-4": {
-            "Panyanyany\\LaravelExceptionFilter\\": "src"
+            "Panyanyany\\LaravelExceptionFilter\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Panyanyany\\LaravelExceptionFilter\\FilterServiceProvider"
+            ]
         }
     }
 }
