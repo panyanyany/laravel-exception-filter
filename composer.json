@@ -1,0 +1,34 @@
+{
+    "name": "panyanyany/laravel-exception-filter",
+    "description": "Filter some redundant file lines from stack trace.",
+    "keywords": ["laravel", "exception", "filter"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "panyanyany",
+            "email": "panyanyany@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7",
+        "composer/composer": "^1.6"
+    },
+    "require-dev": {
+    },
+    "suggest": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Panyanyany\\LaravelExceptionFilter\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+        }
+    },
+    "scripts": {
+        "test": "phpunit",
+        "check-style": "phpcs -p --standard=PSR2 src/",
+        "fix-style": "phpcbf -p --standard=PSR2 src/"
+    },
+}
