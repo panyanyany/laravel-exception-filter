@@ -14,7 +14,8 @@ class FilterServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->singleton(
-            Illuminate\Contracts\Debug\ExceptionHandler::class,
+            // Illuminate\Contracts\Debug\ExceptionHandler::class,
+            \App\Exceptions\Handler::class,
             Handler::class
         );
     }

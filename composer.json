@@ -3,6 +3,7 @@
     "description": "Filter some redundant file lines from stack trace.",
     "keywords": ["laravel", "exception", "filter"],
     "license": "MIT",
+    "version": "1.1",
     "authors": [
         {
             "name": "panyanyany",
@@ -11,6 +12,7 @@
     ],
     "require": {
         "php": ">=7",
+        "laravel/framework": "^7.0",
         "composer/composer": "^1.6"
     },
     "require-dev": {
